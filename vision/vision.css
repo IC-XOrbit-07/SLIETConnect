@@ -58,6 +58,7 @@ body {
     text-align: center;
     background-image: url('../images/image_vision2.jpg');
     object-fit: cover;
+    /* font-size: 1px; */
 }
 
 .hero-content {
@@ -66,12 +67,12 @@ body {
 }
 
 .hero-content h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Content Sections */
