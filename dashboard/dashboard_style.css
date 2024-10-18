@@ -53,13 +53,15 @@
 }
 
 #mentee-container{
-    width: 341px;
-    height: 198px;
+    width: 400px;
+    height: 258px;
     border-radius: 10px;
     border: 2px solid #F2F2F5;
     background: #FFF;
     backdrop-filter: blur(10.300000190734863px);
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -70,6 +72,61 @@
     width: 127px;
     /* border: 2px solid black; */
     margin-left: 20px;
+}
+
+
+#slot_930{
+    width: 29px;
+    height: 10px;
+    background-color: #00ff29;
+    color: #FFF;
+    /* font-family: "SF Pro Text"; */
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    scale: 2;
+}
+
+#slot_930_1{
+    width: 29px;
+    height: 10px;
+    /* background-color: #00ff29; */
+    color: #FFF;
+    /* font-family: "SF Pro Text"; */
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    scale: 2;
+    /* border: .01px solid black; */
+    color: #000000;
+}
+
+#slot_930_2{
+    width: 29px;
+    height: 10px;
+    background-color: #ff0004;
+    /* font-family: "SF Pro Text"; */
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    scale: 2;
+    /* border: .1px solid black; */
+    color: #fff;
 }
 
 #first_div img{
@@ -92,6 +149,43 @@
     margin-left: 40px;
 }
 
+#second_div{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+    /* border: 2px solid black; */
+}
+
+#name_teacher{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 60px;
+    /* width: fit-content; */
+    margin-top: 40px;
+    /* border: 2px solid black; */
+}
+
+#flow_flow::-webkit-scrollbar{
+    display: none;
+}
+
+#flow_flow{
+    display: flex; flex-direction: column; overflow: scroll; flex-flow: row; width: 1500px;
+}
+
+#button_id{
+    /* all: unset; */
+    width: 74px;
+    height: 26.369px;
+    flex-shrink: 0;
+    background-color: #f2f2f5;
+    border-radius: 13.4px;
+    border: transparent;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
     
@@ -118,6 +212,14 @@
         font-size: 25px;
         margin-left: 20px;
         margin-top: 70px;
+    }
+
+    #flow_flow{
+        display: flex; 
+        flex-direction: column; 
+        width: inherit;
+        /* margin-right: 50px; */
+        /* background-color: red; */
     }
 }
 
