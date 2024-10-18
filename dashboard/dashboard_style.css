@@ -224,6 +224,7 @@
         width: inherit;
         margin-right: 50px;
         /* background-color: red; */
+        width: 100vw;
     }
     #meeting_history_title{
         scale: .8;

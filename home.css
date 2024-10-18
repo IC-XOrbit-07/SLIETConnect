@@ -45,6 +45,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-image: url("./images/image______.webp");
 }
 
 .hero-content {
@@ -141,5 +143,14 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .hero{
+        background-image: url("./images/img_phone.webp");
     }
 }
