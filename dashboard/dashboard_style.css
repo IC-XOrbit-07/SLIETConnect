@@ -225,6 +225,12 @@
         margin-right: 50px;
         /* background-color: red; */
     }
+    #meeting_history_title{
+        scale: .8;
+    }
+    .container-calendar{
+        flex-direction: column;
+    }
 }
 
 
