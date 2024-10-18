@@ -135,11 +135,17 @@ function color_updater(){
 }
 
 
-function check_login_id_pass(){
+function check_login_id_pass() {
     let apple_submit_logo = document.getElementById('apple_submit_logo');
     apple_submit_logo.style.display = "none";
-    let loading_spinner =  document.getElementById("extra_target");
+    let loading_spinner = document.getElementById("extra_target");
     loading_spinner.style.display = 'block';
+
+    // Delay for 4 seconds (4000 milliseconds) and then redirect
+    setTimeout(function() {
+        // Redirect to the next page
+        window.location.href = "./dashboard/final_dashboard.html"; // Change this to your target URL
+    }, 2000);
 }
 
 function show_menu() {
