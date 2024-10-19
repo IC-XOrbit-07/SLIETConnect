@@ -269,3 +269,7 @@ showCalendar(currentMonth, currentYear);
 function gotoprofile(){
     window.location.href = "../profile/profile_index.html";
 }
+
+function gotochats(){
+    window.location.href = "../chat/chat.html";
+}

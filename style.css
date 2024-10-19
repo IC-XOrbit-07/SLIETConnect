@@ -57,6 +57,10 @@ select:-webkit-autofill:focus {
 
 }
 
+/* body{
+  background-image: url("./images/login_background.jpg");
+} */
+
 .option_hover_hamburger:hover{
   border-bottom: 5px solid #1671e8;
   border-bottom-left-radius: 5px;
